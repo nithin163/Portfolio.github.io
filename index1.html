@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO & Meta Tags -->
+    <title>Parimi Nithin Kumar | Elite SOC Analyst</title>
+    <meta name="description"
+        content="Portfolio of Parimi Nithin Kumar, a SOC Analyst / Cybersecurity Analyst specializing in SIEM, Incident Response, Documented Threat Hunting, and MITRE ATT&CK rule engineering.">
+    <meta name="keywords"
+        content="SOC Analyst, Cybersecurity Analyst, SIEM, Incident Response, Threat Hunting, Vulnerability Scanning, Splunk, QRadar, Wazuh, MITRE ATT&CK, IOC Analysis, Log Correlation, Detection Engineering, Phishing Analysis, Honeypots, Python Automation, Linux, Network Security">
+    <meta property="og:title" content="Parimi Nithin Kumar | SOC Analyst Portfolio">
+    <meta property="og:description"
+        content="Investigated 200+ alerts, reduced false positives by 30%. Explore real-world honeypot, OSINT, and phishing analysis lab projects.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="assets/Images/profile-placeholder.jpg.png">
+    <!-- Profile image for social preview -->
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Fonts: Inter for UI, JetBrains Mono for Code/Terminal -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="cyber-theme">
+
+    <!-- 1. Sticky Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-content">
+            <a href="#" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>
+                <span class="logo-text">PNK</span>
+                <span class="logo-bracket">/&gt;</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#resume" class="btn-glow nav-btn"><i class="ph ph-file-pdf"></i> Resume</a></li>
+            </ul>
+            <button class="mobile-menu-btn" aria-label="Toggle Menu">
+                <i class="ph ph-list"></i>
+            </button>
+        </div>
+        <div class="nav-scanline"></div>
+    </nav>
+
+    <!-- 2. Hero Section -->
+    <section id="hero" class="hero-section">
+        <div id="vanta-bg" class="hero-bg"></div>
+        <div class="cyber-grid-overlay"></div>
+
+        <div class="hero-container container">
+            <div class="hero-content gs-reveal">
+                <div class="terminal-badge">
+                    <i class="ph-fill ph-shield-check"></i>
+                    <span>SYSTEM_SECURED // 200_OK</span>
+                </div>
+
+                <h1 class="hero-title">
+                    <span class="glitch-text" data-text="Parimi Nithin Kumar">Parimi Nithin Kumar</span>
+                </h1>
+
+                <div class="typewriter-wrapper">
+                    <span class="typing-text">> SOC Analyst</span>
+                    <span class="cursor">_</span>
+                </div>
+                <div class="typewriter-wrapper sub">
+                    <span class="typing-text accent">> Breach the Defense.</span>
+                </div>
+
+                <p class="hero-description">
+                    Cybersecurity Analyst specialized in SIEM, Incident Response, and Threat Hunting. Focusing on rapid
+                    alert triage, advanced IOC correlation, and reducing false positives to secure enterprise
+                    environments.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#projects" class="btn-cyber primary">
+                        <i class="ph ph-terminal-window"></i> View Projects
+                        <div class="btn-scanner"></div>
+                    </a>
+                    <a href="#resume" class="btn-cyber secondary">
+                        <i class="ph ph-download-simple"></i> Download Resume
+                    </a>
+                    <a href="#contact" class="btn-cyber secondary outline">
+                        <i class="ph ph-paper-plane-right"></i> Contact Me
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-graphics gs-reveal-right">
+                <div class="radar-container">
+                    <div class="radar-sweep"></div>
+                    <div class="radar-ring r1"></div>
+                    <div class="radar-ring r2"></div>
+                    <div class="radar-ring r3"></div>
+
+                </div>
+                <div class="floating-metric m1">
+                    <i class="ph-fill ph-activity"></i> Monitoring 24/7
+                </div>
+                <div class="floating-metric m2">
+                    <i class="ph-fill ph-bug-beetle"></i> 0-Day Ready
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>SCROLL_TO_INITIATE</span>
+        </div>
+    </section>
+
+    <!-- 3. About Section -->
+    <section id="about" class="about-section padded-section relative">
+        <div class="container gs-fade-up">
+            <div class="section-header">
+                <h2 class="section-title">Mission Profile</h2>
+                <div class="title-line"></div>
+                <span class="section-subtitle">/// IDENTIFICATION_RECORD</span>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-text-panel glass-panel">
+                    <p>Cybersecurity Analyst with hands-on SOC internship experience at CyArt Tech. Expert in proactive
+                        threat detection, SIEM triage, and rapid incident response workflows.</p>
+                    <p>My analytical approach allowed me to investigate <strong>200+ alerts</strong> and successfully
+                        reduce false positives by <strong>30%</strong> through the deployment of customized MITRE
+                        ATT&CK-based detection rules.</p>
+                    <p>Beyond traditional operations, I build and analyze real-world attacker behaviors using honeypots
+                        and write robust Python automation to accelerate threat hunting workloads and streamline log
+                        correlation.</p>
+                </div>
+                <div class="about-metrics">
+                    <div class="metric-card glass-panel hover-glow">
+                        <div class="metric-icon"><i class="ph ph-shield-warning"></i></div>
+                        <div class="metric-data">200+</div>
+                        <div class="metric-label">Alerts Investigated</div>
+                    </div>
+                    <div class="metric-card glass-panel hover-glow">
+                        <div class="metric-icon"><i class="ph ph-trend-down"></i></div>
+                        <div class="metric-data">30%</div>
+                        <div class="metric-label">FP Reduction</div>
+                    </div>
+                    <div class="metric-card glass-panel hover-glow">
+                        <div class="metric-icon"><i class="ph ph-crosshair"></i></div>
+                        <div class="metric-data">Blue Team</div>
+                        <div class="metric-label">Core Focus</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Skills Section -->
+    <section id="skills" class="skills-section padded-section relative">
+        <div class="container gs-fade-up">
+            <div class="section-header">
+                <h2 class="section-title">Core Competencies</h2>
+                <div class="title-line"></div>
+                <span class="section-subtitle">/// TACTICAL_ARSENAL</span>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Skill Category 1 -->
+                <div class="skill-category glass-panel">
+                    <div class="cat-header">
+                        <i class="ph ph-binoculars"></i>
+                        <h3>SOC Operations</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">SOC Monitoring</span>
+                        <span class="skill-tag">Alert Triage</span>
+                        <span class="skill-tag">Log Analysis</span>
+                        <span class="skill-tag">Security Documentation</span>
+                    </div>
+                </div>
+                <!-- Skill Category 2 -->
+                <div class="skill-category glass-panel">
+                    <div class="cat-header">
+                        <i class="ph ph-radar"></i>
+                        <h3>SIEM & Detection</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Splunk</span>
+                        <span class="skill-tag">QRadar</span>
+                        <span class="skill-tag">Wazuh</span>
+                        <span class="skill-tag">Detection Engineering</span>
+                        <span class="skill-tag">MITRE ATT&CK</span>
+                    </div>
+                </div>
+                <!-- Skill Category 3 -->
+                <div class="skill-category glass-panel">
+                    <div class="cat-header">
+                        <i class="ph ph-first-aid"></i>
+                        <h3>Investigation & IR</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Incident Response</span>
+                        <span class="skill-tag">Threat Hunting</span>
+                        <span class="skill-tag">IOC Analysis</span>
+                        <span class="skill-tag">Phishing Analysis</span>
+                    </div>
+                </div>
+                <!-- Skill Category 4 -->
+                <div class="skill-category glass-panel">
+                    <div class="cat-header">
+                        <i class="ph ph-graph"></i>
+                        <h3>Networking & Tools</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Wireshark</span>
+                        <span class="skill-tag">Nmap</span>
+                        <span class="skill-tag">Nessus</span>
+                        <span class="skill-tag">Metasploit</span>
+                        <span class="skill-tag">Firewall Rules</span>
+                    </div>
+                </div>
+                <!-- Skill Category 5 -->
+                <div class="skill-category glass-panel">
+                    <div class="cat-header">
+                        <i class="ph ph-terminal"></i>
+                        <h3>Scripting & Systems</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Honeypots</span>
+                        <span class="skill-tag">Automation</span>
+                    </div>
+                </div>
+                <!-- Skill Category 6 -->
+                <div class="skill-category glass-panel">
+                    <div class="cat-header">
+                        <i class="ph ph-users"></i>
+                        <h3>Soft Skills</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Leadership</span>
+                        <span class="skill-tag">Collaboration</span>
+                        <span class="skill-tag">Communication</span>
+                        <span class="skill-tag">Problem Solving</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Experience Section -->
+    <section id="experience" class="exp-section padded-section relative">
+        <div class="container gs-fade-up">
+            <div class="section-header">
+                <h2 class="section-title">Operational History</h2>
+                <div class="title-line"></div>
+                <span class="section-subtitle">/// CAREER_TIMELINE</span>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-line"></div>
+                <!-- Experience Item -->
+                <div class="timeline-item gs-timeline-item">
+                    <div class="timeline-node"></div>
+                    <div class="timeline-content glass-panel hover-border">
+                        <div class="exp-header">
+                            <div>
+                                <h3 class="role">SOC Analyst Intern</h3>
+                                <div class="company"><i class="ph ph-buildings"></i> CyArt Tech</div>
+                            </div>
+                            <div class="date"><i class="ph ph-calendar"></i> Jan 2025 – Present</div>
+                        </div>
+                        <ul class="exp-list">
+                            <li><i class="ph-fill ph-caret-right"></i> Triaged 20 daily security alerts from SIEM and
+                                supporting tools.</li>
+                            <li><i class="ph-fill ph-caret-right"></i> Investigated 200+ alerts including phishing,
+                                malware, brute force, suspicious authentication activity, and lateral movement
+                                indicators.</li>
+                            <li><i class="ph-fill ph-caret-right"></i> Reduced false positives by 30% through improved
+                                MITRE ATT&CK detection logic and rule tuning.</li>
+                            <li><i class="ph-fill ph-caret-right"></i> Engineered 20 detection rules.</li>
+                            <li><i class="ph-fill ph-caret-right"></i> Performed IOC validation, log correlation,
+                                contextual analysis, and escalation support.</li>
+                            <li><i class="ph-fill ph-caret-right"></i> Supported incident response by identifying
+                                affected users, endpoints, indicators, and follow-up actions.</li>
+                        </ul>
+                        <div class="exp-chips">
+                            <span>MITRE ATT&CK</span>
+                            <span>SIEM Triage</span>
+                            <span>Detection Rules</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Featured Projects Section -->
+    <section id="projects" class="projects-section padded-section relative">
+        <div class="container">
+            <div class="section-header gs-fade-up">
+                <h2 class="section-title">Combat Simulations</h2>
+                <div class="title-line"></div>
+                <span class="section-subtitle">/// FEATURED_PROJECTS</span>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card glass-panel gs-fade-up">
+                    <div class="project-img-wrapper">
+                        <div class="browser-bar">
+                            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                        </div>
+                        <img src="assets/Images/T-pot.png" alt="T-Pot Honeypot" class="project-img">
+                        <div class="img-overlay"></div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <i class="ph ph-cube-transparent"></i>
+                            <h3>T-Pot Honeypot</h3>
+                        </div>
+                        <p>Deployed and monitored a T-Pot honeypot environment to analyze real-world malicious traffic
+                            and attacker behavior.</p>
+                        <div class="project-metrics">
+                            <span class="pm-chip">200 Attacks</span>
+                            <span class="pm-chip">15 Countries</span>
+                            <span class="pm-chip">12 Rules</span>
+                        </div>
+                        <div class="project-tech">Tech: T-Pot, Linux, Threat Intel, Log Analysis</div>
+                        <a href="https://github.com/#" target="_blank" class="btn-icon outline">
+                            <i class="ph ph-github-logo"></i> View Source
+                        </a>
+                    </div>
+                    <div class="hover-sweep"></div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-panel gs-fade-up" style="transition-delay: 0.1s">
+                    <div class="project-img-wrapper">
+                        <div class="browser-bar">
+                            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                        </div>
+                        <img src="assets/Images/cowrie.png" alt="Cowrie SSH Honeypot" class="project-img">
+                        <div class="img-overlay"></div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <i class="ph ph-lock-key"></i>
+                            <h3>Cowrie SSH Honeypot</h3>
+                        </div>
+                        <p>Built a Cowrie SSH honeypot to study brute-force attempts, username/password trends, and
+                            attacker interaction.</p>
+                        <div class="project-metrics">
+                            <span class="pm-chip">500 Logins Analyzed</span>
+                            <span class="pm-chip">8 Firewall Rules</span>
+                        </div>
+                        <div class="project-tech">Tech: Cowrie, Linux, Python, Firewall Analysis</div>
+                        <a href="https://medium.com/@nithinkumar9162818/7-steps-to-cowrie-glory-ssh-honeypot-on-digitalocean-that-logs-more-fails-than-my-dating-profile-ce70b4719cfe?postPublishedType=repub"
+                            target="_blank" class="btn-icon outline">
+                            <i class="ph ph-article"></i> Read Article
+                        </a>
+                    </div>
+                    <div class="hover-sweep"></div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card glass-panel gs-fade-up" style="transition-delay: 0.2s">
+                    <div class="project-img-wrapper">
+                        <div class="browser-bar">
+                            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                        </div>
+                        <img src="assets/Images/osint.jpg" alt="OSINT Automation Tool" class="project-img">
+                        <div class="img-overlay"></div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <i class="ph ph-magnifying-glass"></i>
+                            <h3>OSINT Automation Tool</h3>
+                        </div>
+                        <p>Developed a Python-based OSINT and recon automation tool to streamline repetitive
+                            investigation tasks effectively.</p>
+                        <div class="project-metrics">
+                            <span class="pm-chip highlight">70% Faster Recon</span>
+                        </div>
+                        <div class="project-tech">Tech: Python, Automation, OSINT</div>
+                        <a href="https://github.com/#" target="_blank" class="btn-icon outline">
+                            <i class="ph ph-github-logo"></i> View Source
+                        </a>
+                    </div>
+                    <div class="hover-sweep"></div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-card glass-panel gs-fade-up" style="transition-delay: 0.3s">
+                    <div class="project-img-wrapper">
+                        <div class="browser-bar">
+                            <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+                        </div>
+                        <img src="assets/Images/phishing.webp" alt="Phishing Defense Lab" class="project-img">
+                        <div class="img-overlay"></div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <i class="ph ph-envelope-open"></i>
+                            <h3>Phishing Defense Lab</h3>
+                        </div>
+                        <p>Created a lab for phishing email investigation, URL analysis, IOC extraction, and incident
+                            response practice.</p>
+                        <div class="project-metrics">
+                            <span class="pm-chip highlight">25% Faster Resolution</span>
+                        </div>
+                        <div class="project-tech">Tech: Email Headers, IOC Workflows, IR</div>
+                        <a href="https://github.com/#" target="_blank" class="btn-icon outline">
+                            <i class="ph ph-github-logo"></i> View Source
+                        </a>
+                    </div>
+                    <div class="hover-sweep"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Certifications Section -->
+    <section id="certifications" class="certs-section padded-section relative">
+        <div class="container gs-fade-up">
+            <div class="section-header">
+                <h2 class="section-title">Credentials</h2>
+                <div class="title-line"></div>
+                <span class="section-subtitle">/// SECURITY_CLEARANCE</span>
+            </div>
+
+            <div class="certs-grid">
+                <a href="assets/certificates/ECC-CSA-Certificate.pdf" target="_blank" class="cert-card metallic-panel"
+                    style="text-decoration: none; color: inherit;">
+                    <i class="ph ph-certificate"></i>
+                    <h4>CSA</h4>
+                    <p class="cert-org">EC-Council</p>
+                </a>
+                <a href="assets/certificates/RedTeam-Certified%20IT%20Infrastructure%20and%20Cyber%20SOC%20Analyst-Certificate%20(6).pdf"
+                    target="_blank" class="cert-card metallic-panel" style="text-decoration: none; color: inherit;">
+                    <i class="ph ph-certificate"></i>
+                    <h4>CICSA</h4>
+                    <p class="cert-org">Certified Incident CS Analyst</p>
+                </a>
+                <a href="assets/certificates/Pre-security.pdf" target="_blank" class="cert-card metallic-panel"
+                    style="text-decoration: none; color: inherit;">
+                    <i class="ph ph-shield-check"></i>
+                    <h4>SOC Level 1 / Pre-Security</h4>
+                    <p class="cert-org">TryHackMe</p>
+                </a>
+                <a href="assets/certificates/Cyber%20AI%20toolkit.pdf" target="_blank" class="cert-card metallic-panel"
+                    style="text-decoration: none; color: inherit;">
+                    <i class="ph ph-cpu"></i>
+                    <h4>Cyber AI Toolkit</h4>
+                    <p class="cert-org">Certificate</p>
+                </a>
+                <div class="cert-card metallic-panel align-center">
+                    <i class="ph-fill ph-trophy"></i>
+                    <h4>Top 6%</h4>
+                    <p class="cert-org">TryHackMe Ranking</p>
+                </div>
+                <div class="cert-card metallic-panel align-center">
+                    <i class="ph-fill ph-medal"></i>
+                    <h4>100+ Completed</h4>
+                    <p class="cert-org">CTFs & Hands-on Labs</p>
+                </div>
+            </div>
+            <div class="edu-bar glass-panel m-top">
+                <div class="edu-icon"><i class="ph ph-student"></i></div>
+                <div class="edu-details">
+                    <h4>B.E. Computer Science and Engineering (Cybersecurity)</h4>
+                    <p>Sathyabama Institute of Science and Technology | CGPA: 8.67</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Cyber Stats Section -->
+    <section id="stats" class="stats-section padded-section relative">
+        <div class="stats-bg-grid"></div>
+        <div class="container gs-fade-up">
+            <div class="stats-grid">
+                <!-- Stat 1 -->
+                <div class="stat-module">
+                    <div class="hud-ring">
+                        <svg viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="45" class="hud-circle-bg"></circle>
+                            <circle cx="50" cy="50" r="45" class="hud-circle-progress" style="stroke-dashoffset: 40;">
+                            </circle>
+                        </svg>
+                        <div class="hud-value"><span class="counter" data-target="200">0</span>+</div>
+                    </div>
+                    <div class="stat-label">Alerts Investigated</div>
+                </div>
+                <!-- Stat 2 -->
+                <div class="stat-module">
+                    <div class="hud-ring">
+                        <svg viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="45" class="hud-circle-bg"></circle>
+                            <circle cx="50" cy="50" r="45" class="hud-circle-progress" style="stroke-dashoffset: 120;">
+                            </circle>
+                        </svg>
+                        <div class="hud-value"><span class="counter" data-target="20">0</span></div>
+                    </div>
+                    <div class="stat-label">Detection Rules</div>
+                </div>
+                <!-- Stat 3 -->
+                <div class="stat-module">
+                    <div class="hud-ring">
+                        <svg viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="45" class="hud-circle-bg"></circle>
+                            <circle cx="50" cy="50" r="45" class="hud-circle-progress" style="stroke-dashoffset: 80;">
+                            </circle>
+                        </svg>
+                        <div class="hud-value"><span class="counter" data-target="100">0</span>+</div>
+                    </div>
+                    <div class="stat-label">Labs Completed</div>
+                </div>
+                <!-- Stat 4 -->
+                <div class="stat-module">
+                    <div class="hud-ring">
+                        <svg viewBox="0 0 100 100">
+                            <circle cx="50" cy="50" r="45" class="hud-circle-bg"></circle>
+                            <circle cx="50" cy="50" r="45" class="hud-circle-progress" style="stroke-dashoffset: 60;">
+                            </circle>
+                        </svg>
+                        <div class="hud-value"><span class="counter" data-target="15">0</span></div>
+                    </div>
+                    <div class="stat-label">Honeypot Geo-Hits</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. Mini-CTF Quiz Section -->
+    <section id="ctf" class="ctf-section padded-section relative">
+        <div class="container gs-fade-up">
+            <div class="section-header">
+                <h2 class="section-title">Knowledge Validation</h2>
+                <div class="title-line"></div>
+                <span class="section-subtitle">/// INTERACTIVE_TERMINAL</span>
+            </div>
+
+            <div class="terminal-panel glass-panel">
+                <div class="terminal-header">
+                    <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+                    <div class="term-title">SOC_QUIZ_BOT.exe</div>
+                </div>
+                <div class="terminal-body" id="quiz-container">
+                    <div class="term-output" id="q-text">
+                        <span class="prompt">root@soc:~#</span> Loading assessment module...
+                    </div>
+                    <div class="quiz-options" id="q-options">
+                        <!-- Filled by JS -->
+                    </div>
+                    <div class="quiz-feedback" id="q-feedback"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. Resume Section -->
+    <section id="resume" class="resume-section padded-section relative">
+        <div class="container gs-fade-up">
+            <div class="resume-card glass-panel">
+                <div class="resume-visual">
+                    <i class="ph-fill ph-file-pdf resume-icon-large"></i>
+                </div>
+                <div class="resume-content">
+                    <span class="section-subtitle">/// CAREER_DOSSIER</span>
+                    <h2>Comprehensive Work Profile</h2>
+                    <p>Review my complete background, technical skill sets, and professional experiences in a formal
+                        format.</p>
+                    <a href="assets/Parimi_Nithin_Kumar_ATS_Resume-1.pdf" target="_blank"
+                        class="btn-cyber primary glow-btn">
+                        <i class="ph ph-download-simple"></i> Download PDF
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 11. Contact Section -->
+    <section id="contact" class="contact-section padded-section relative">
+        <div class="container gs-fade-up">
+            <div class="section-header center">
+                <h2 class="section-title">Establish Connection</h2>
+                <div class="title-line center"></div>
+                <p class="contact-sub">Open to SOC Analyst / Cybersecurity Analyst opportunities</p>
+            </div>
+
+            <div class="contact-dock glass-panel">
+                <a href="mailto:nithinkumar86797@gmail.com" class="dock-item" aria-label="Email">
+                    <div class="dock-icon"><i class="ph-fill ph-envelope-simple"></i></div>
+                    <span>Email</span>
+                </a>
+                <a href="tel:+916281840208" class="dock-item" aria-label="Phone">
+                    <div class="dock-icon"><i class="ph-fill ph-phone"></i></div>
+                    <span>Phone</span>
+                </a>
+                <a href="https://www.linkedin.com/in/nithin-kumar-8bb931251/" target="_blank" class="dock-item"
+                    aria-label="LinkedIn">
+                    <div class="dock-icon"><i class="ph-fill ph-linkedin-logo"></i></div>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/nithin163" target="_blank" class="dock-item" aria-label="GitHub">
+                    <div class="dock-icon"><i class="ph-fill ph-github-logo"></i></div>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://tryhackme.com/p/nithinkumar9162818" target="_blank" class="dock-item"
+                    aria-label="TryHackMe">
+                    <div class="dock-icon"><i class="ph-fill ph-shield-check"></i></div>
+                    <span>TryHackMe</span>
+                </a>
+                <a href="https://medium.com/@nithinkumar9162818" target="_blank" class="dock-item" aria-label="Medium">
+                    <div class="dock-icon"><i class="ph-fill ph-article"></i></div>
+                    <span>Medium</span>
+                </a>
+            </div>
+
+            <div class="location-chip">
+                <i class="ph-fill ph-map-pin"></i> Nizamabad, Telangana, India
+            </div>
+
+            <div class="terminal-email-prompt">
+                <span class="prompt">$</span> sendmail -to nithinkumar86797@gmail.com
+                <a href="mailto:nithinkumar86797@gmail.com" class="blinking-cursor-link">_</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 12. Footer -->
+    <footer class="footer-section relative">
+        <div class="cyber-divider"></div>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-bracket">&lt;</span>PNK<span class="logo-bracket">/&gt;</span>
+                </div>
+                <div class="footer-text">
+                    <p>&copy; 2025 Parimi Nithin Kumar. All rights reserved.</p>
+                    <p class="tagline">Securing perimeters, hunting threats.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.linkedin.com/in/nithin-kumar-8bb931251/" target="_blank"><i
+                            class="ph ph-linkedin-logo"></i></a>
+                    <a href="https://github.com/nithin163" target="_blank"><i class="ph ph-github-logo"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="micro-particles" id="footer-particles"></div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
